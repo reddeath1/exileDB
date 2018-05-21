@@ -50,11 +50,11 @@ Output in db.exile
 	$db = new exileDB()-open("db.exile");
 	$db
 		->setTable("`tblusers")
-		->insert('{"name": "Frank Galos", "age": "100", "gender": "Male"}');
+		->insert('{"name": "Frank Galos", "age": "1000", "gender": "Male"}');
 ?>
 Output in db.exile
 -----------------------------------------------------------------------------------------
-{"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[{"_id": "53f934f03333340880001e9b","name": "Frank Galos","age": "100","gender": "Male","created_at":"2014-08-24 2:42:24","updated_at":"2014-08-24 3:22:48"}]}}
+{"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[{"_id": "53f934f03333340880001e9b","name": "Frank Galos","age": "100","gender": "Male","created_at":"2018-05-12 2:42:24","updated_at":"2018-05-12 3:22:48"}]}}
 
 # Select Data
 <?php
@@ -63,7 +63,7 @@ Output in db.exile
 	$db = new exileDB()-open("db.exile");
 	$db->setTable("tblusers");
 	
-	$data = $db->select('{"name": "Frank Galos", "age": "100"}');
+	$data = $db->select('{"name": "Frank Galos", "age": "1000"}');
 	var_dump($data);
 ?>
 Output in browser
@@ -74,8 +74,8 @@ array (size=1)
       public '_id' => string '53f934f03333340880001e9b' (length=24)
       public 'name' => string 'Frank Galos' (length=12)
       public 'age' => string '100' (length=3)
-      public 'created_at' => string '2014-08-24 2:42:24' (length=18)
-      public 'updated_at' => string '2014-08-24 3:22:48' (length=18)
+      public 'created_at' => string '2018-05-12 1:42:24' (length=18)
+      public 'updated_at' => string '2018-05-12 3:22:48' (length=18)
 
 # Update Data
 <?php
@@ -88,7 +88,7 @@ array (size=1)
 ?>
 Output in db.exile
 -----------------------------------------------------------------------------------------
-{"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[{"_id": "53f934f03333340880001e9b","name": "Frank Galos","age": "200","gender": "Male","created_at":"2014-08-24 2:42:24","updated_at":"2014-08-24 3:22:48"}]}}
+{"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[{"_id": "53f934f03333340880001e9b","name": "Frank Galos","age": "200","gender": "Male","created_at":"2018-05-12 9:42:24","updated_at":"2018-05-12 5:22:48"}]}}
 
 # Delete Data
 <?php
