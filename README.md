@@ -1,6 +1,6 @@
 # exileDB
 
-# exileDB is a simple JSON document database written in PHP.
+exileDB is a simple JSON document database written in PHP.
 
 # Examples
 # Open Database
