@@ -1,5 +1,6 @@
-#exileDB
-exileDB is a simple JSON document database written in PHP.
+# exileDB
+
+# exileDB is a simple JSON document database written in PHP.
 
 # Examples
 # Open Database
@@ -103,8 +104,8 @@ Output in db.exile
 {"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[]}}
 
 /**
- * exile Database.
- * @author Frank Galos <frankslayer1@live.com>
+ * Exile Database.
+ * @author Frank Galos <frankslayer1@gmail.com>
  * @version 1.0.0
  * @license The MIT License (MIT)
  * @copyright Copyright (c) <2014> <Frank Galos>
