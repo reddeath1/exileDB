@@ -103,7 +103,7 @@ Output in db.exile
 -----------------------------------------------------------------------------------------
 {"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[]}}
 
-/**
+
  * Exile Database.
  * @author Frank Galos <frankslayer1@gmail.com>
  * @version 1.0.0
@@ -126,4 +126,4 @@ Output in db.exile
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
- */
+
