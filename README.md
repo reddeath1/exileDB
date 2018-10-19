@@ -104,6 +104,13 @@ Output in db.exile
 {"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[]}}
 
 
+
+#CLIENTS USING THIS DATABASE INCLUDE
+<a href="https://flights.karibuworld.com/">Karibu World - Safari Africa and Travel Your World</a>
+
+
+
+
 * MIT License
 
 * Copyright (c) 2018 Frank Galos
