@@ -103,7 +103,7 @@ Output in db.exile
 -----------------------------------------------------------------------------------------
 {"name":"db\r\n","tables":{"tblusers":["_id","name","age", "gender", "created_at","updated_at"]},"data":{"tblusers":[]}}
 
-
+<br><br>
 
 # CLIENTS USING THIS DATABASE INCLUDE
 <br>
@@ -113,7 +113,7 @@ This are clients that found this DB worth trying.
 <a href="https://neditor.herokuapp.com/">Neditor</a>
 
 
-
+<br><br><br>
 
 * MIT License
 
