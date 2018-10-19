@@ -107,7 +107,7 @@ Output in db.exile
 
 # CLIENTS USING THIS DATABASE INCLUDE
 <br>
-This are clients that found this DB worth trying.
+These are clients that found this DB worth trying.
 <br><br>
 <a href="https://flights.karibuworld.com/">Karibu World - Safari Africa and Travel Your World</a><br>
 <a href="https://neditor.herokuapp.com/">Neditor</a>
